@@ -28,9 +28,18 @@ class Warrior:
 
 # Создание экземпляра класса Warrior
 war1 = Warrior("Степа", 25, 56, "коричневый")
+war2 = Warrior("Женя", 27, 58, "блонд")
 
-# Вызов методов для вывода информации
-print(war1.name)
-print(war1.power)
-print(war1.endurance)
-print(war1.hair_color)
+
+
+war1.hit()
+war1.walk()
+war1.sleep()
+war1.eat()
+war1.info()
+
+war2.hit()
+war2.walk()
+war2.eat()
+war2.sleep()
+war2.info()
